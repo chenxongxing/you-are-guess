@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>midea_vue</title>
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery-3.2.1.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but xz_vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+  <script>
+    //商品类目的功能
+    var tabs=document.querySelectorAll("[data-cate=tab]");
+    //console.log(tabs);
+    for(var tab of tabs){
+        tab.onmouseenter=function(){
+        var tab=this;
+    //获取当前tab对应的属性值，值为要显示区域的id名
+        var id=tab.getAttribute("data-target")
+        var div=document.querySelector(id);
+        div.style.left="220px";
+        tab.style.background="rgba(0,0,0,0.6)";
+    }
+    tab.onmouseleave=function(){
+        var tab=this;
+        var id=tab.getAttribute("data-target")
+        var div=document.querySelector(id);
+        div.style.left="-10000px";
+        tab.style.background="none";
+        }
+    }
+</script>
+</html>
