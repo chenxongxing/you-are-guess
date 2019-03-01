@@ -2,7 +2,7 @@
 <div>
   <div id="header">
         <div class="inner">
-            <a class="midea_logo" href="//www.midea.cn/?mtag=40005.1.10" title="美的"><img src="../../public/img/header/midea_logo.png" alt=""></a>
+            <a class="oppo_logo" href="//www.midea.cn/?mtag=40005.1.10" title="美的"><img src="../../public/img/header/midea_logo.png" alt=""></a>
             <ul class="nav">
                 <li class="item">
                     <a href="#">首页</a>
