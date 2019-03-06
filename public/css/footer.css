@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+body ul{
+  list-style: none;
+}
+.f3{
+  margin:80px 0px;
+}
+.f3 ul{
+    font-size:14px;
+    color:#828282;
+    float:left;
+    margin-right:60px;
+    font-size:17px;
+    }
+    .w1{
+      font-size:17px;
+      color:#333;
+    }
+    .d1{
+      clear: both;
+    }
+    .f4{
+      width:300px;
+      float: right;
+    }
+    .q1{
+      font-size:24px;
+      clear: both;
+      position: relative;
+      left: 25px; 
+
+    }
+    .q2{
+      color: #828282;
+      font-size:14px;
+      position: relative;
+      left: 80px; 
+    }
