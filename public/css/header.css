@@ -8,50 +8,71 @@ body a{
 }
 body ul{
   list-style: none;
+  float: left;
 }
 .f1{
-  background:#fff;
-  width:100%;
-  height:5px;
+  position: relative;
 }
 .a1{
-  float:left;
-}
-.a1 li{
-float:left;
-margin-left:60px;
-margin-top:10px;
+  margin:-42px 252px;
 }
 .b1{
-  margin-left:100px;
+  position: relative;
+  top:12px;
 }
-.b3 {
-  margin-top:2px;
-  margin-left:150px;
+.b3{
+float: left;
+margin:12px 100px;;
+}
+.a1 li{
+  float: left;
+  margin:20px;
+  padding-right:18px;
 }
 .a2{
-  position: fixed;
-  background:#ddd;
+  position: absolute;
+  background: #ddd;
   width:100%;
   height:300px;
-  clear: both;
-  display:none;
+  top:65px;
+  margin-left:-50%;
+  left:50%;
+}
+.a2>div{
+  float: left;
+}
+.a2>.b5>div{
+  float: left;
+  text-align: center;
+}
+.b4 img{
+  width:370px;
+  height:282px;
+}
+.b5 img{
+  width:100px;
+  background:#fff;
+  float:left;
+  margin-left:10px;
+}
+.a1>.fc1>li{
+  display:inline-block;
+  margin-top:0px;
 }
 .foot{
   width:100%;
   height:500px;
 }
-.section{
-  width:100%;
-  height:100%;
-}
 /*轮播图*/
-.f3{
+.f2{
   width:100%;
+  height:750px;
 }
-.f2 img{
-  width:100%;
-  height:600px;
+.f2>div:first-child{
+  background-image: url(public/img/index/carousel/header-01.jpg)
+}
+.f2>div:nth-child(2){
+  background-image:url(public/img/index/carousel/header-02.jpg)
 }
 /*内部图*/
 .a4{
