@@ -2,53 +2,53 @@
 body ul{
   list-style: none;
 }
-.f3{
+.oc-footer{
   clear: both;
   width:1200px;
   margin:0 auto ;
 }
-.f3 ul{
+.oc-footer ul{
     font-size:14px;
     color:#828282;
     float:left;
     margin-right:60px;
     }
-    .f3 li{
+    .oc-footer li{
       margin-bottom:10px;
     }
-    .w1{
+    .of-directory{
       font-size:17px;
       color:#333;
     }
-    .d1{
+    .of-cp-content{
       color:#828282;
       font-size:13px;
       padding-top:50px;
       border-top:1px solid black;
       clear: both;
     }
-    .f4{
+    .of-serv-oppo{
       width:300px;
       float: right;
     }
     /*ul li字体颜色及大小*/
-    .q1{
+    .oc-iconfont-ooo{
       font-size:24px;
       clear: both;
       position: relative;
       left: 25px; 
 
     }
-    .q2{
+    .of-serv-tel{
       color: #828282;
       font-size:14px;
       position: relative;
       left: 80px; 
     }
-   .f4 a{
+   .of-service a{
      display:inline-block;
    }
    /*底部标志 支付宝 微博 */
-  .f4 img{
+  .of-serv-oppo img{
      vertical-align: middle;
    }

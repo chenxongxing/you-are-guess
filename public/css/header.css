@@ -10,26 +10,26 @@ body ul{
   list-style: none;
   float: left;
 }
-.f1{
+.oh-nav{
   position: relative;
 }
-.a1{
+.oh-navlist-wrapper{
   margin:-42px 252px;
 }
-.b1{
+.oh-nav-logo{
   position: relative;
   top:12px;
 }
-.b3{
+.oh-nav-link{
 float: left;
 margin:12px 100px;;
 }
-.a1 li{
+.oh-navlist-wrapper li{
   float: left;
   margin:20px;
   padding-right:18px;
 }
-.a2{
+.oh-navpopup-9{
   position: absolute;
   background: #ddd;
   width:100%;
@@ -38,24 +38,24 @@ margin:12px 100px;;
   margin-left:-50%;
   left:50%;
 }
-.a2>div{
+.oh-navpopup-9>div{
   float: left;
 }
-.a2>.b5>div{
+.oh-navpopup-9>.b5>div{
   float: left;
   text-align: center;
 }
-.b4 img{
+.oh-navpro-wrapper img{
   width:370px;
   height:282px;
 }
-.b5 img{
+.oh-navcover-title img{
   width:100px;
   background:#fff;
   float:left;
   margin-left:10px;
 }
-.a1>.fc1>li{
+.oh-navlist-wrapper>.oh-navitem-link>li{
   display:inline-block;
   margin-top:0px;
 }
@@ -75,14 +75,14 @@ margin:12px 100px;;
   background-image:url(public/img/index/carousel/header-02.jpg)
 }
 /*内部图*/
-.a4{
+.banner-link{
 float:right;
 }
-.a4 div{
+.banner-link div{
 float:right;
 width:50%;
 }
-.a4 img{
+.banner-link img{
 width:100%;
 height:300px;
 }
