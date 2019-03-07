@@ -1,0 +1,28 @@
+*{margin:0;padding:0;}
+/*头部 导航栏*/
+.header{
+    width:100%;
+    height:500px;
+}
+/*详情页面第一条div*/
+body a{
+    text-decoration:none;
+}
+.nav-items{
+    width: 100%;
+    height:49.7px;
+}
+.nav-items img{
+    width:48px;
+    height:15.06px;
+}
+.nav-item-f{
+  width:80%;
+  height:79.7px;
+  position: relative;
+}
+.nav-item-f>span:first-child{
+    position: absolute;
+    left:0px;
+    top:
+}

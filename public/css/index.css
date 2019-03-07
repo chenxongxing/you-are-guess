@@ -1,0 +1,34 @@
+/*头部*/
+.header{
+    width:100%;
+    height:500px;
+}
+/*轮播图*/
+.f2{
+    width:100%;
+    height:750px;
+  }
+  .f2>div:first-child{
+    background-image: url(public/img/index/carousel/header-01.jpg)
+  }
+  .f2>div:nth-child(2){
+    background-image:url(public/img/index/carousel/header-02.jpg)
+  }
+  /*内部图*/
+  .banner-link{
+  float:right;
+  }
+  .banner-link div{
+  float:right;
+  width:50%;
+  }
+  .banner-link img{
+  width:100%;
+  height:300px;
+  }
+  /*底部*/
+  .foot{
+    width:100%;
+    height:500px;
+  }
+  
